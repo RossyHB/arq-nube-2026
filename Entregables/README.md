@@ -182,7 +182,7 @@ Herramientas recomendadas:
 > Terminé mi proyecto final del curso Arquitectura en la Nube 2026.  
 > Arranqué con una app dockerizada corriendo localmente y diseñé una propuesta de infraestructura AWS aplicando Well-Architected principles, estimación de costos y plan de disaster recovery.  
 > Esto me ayudó a entender cómo una app local puede evolucionar hacia una solución cloud escalable, segura y confiable.  
-> #AWS #CloudArchitecture #WomenInCloud #WICBuenosAires
+> #AWS #CloudArchitecture #WomenInCloud #WICBuenosAires #Udemm
 
 ---
 

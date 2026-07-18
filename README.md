@@ -19,7 +19,7 @@ Para completar el curso necesitás cumplir **los dos requisitos**:
 1. **Examen en AWS Academy** — Rendir y aprobar la evaluación **"Academy Cloud Architecting"** dentro de la plataforma AWS Academy
 2. **Entregar el TP Final** — Subir tu entrega a este repositorio siguiendo los pasos de abajo
 
-> ¿Dudas o preguntas? Escribí al canal de **Slack** del curso.
+> ¿Dudas o preguntas? Escribí al grupo de **WhatsApp** del curso.
 
 ---
 

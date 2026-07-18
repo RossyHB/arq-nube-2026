@@ -12,6 +12,17 @@ Repositorio oficial del curso de arquitectura de computación en la nube — **A
 
 ---
 
+## 🎓 Requisitos para graduarse
+
+Para completar el curso necesitás cumplir **los dos requisitos**:
+
+1. **Examen en AWS Academy** — Rendir y aprobar la evaluación **"Academy Cloud Architecting"** dentro de la plataforma AWS Academy
+2. **Entregar el TP Final** — Subir tu entrega a este repositorio siguiendo los pasos de abajo
+
+> ¿Dudas o preguntas? Escribí al canal de **Slack** del curso.
+
+---
+
 ## 🚀 Cómo entregar tu TP
 
 ### Paso 1 — Clonar el repositorio

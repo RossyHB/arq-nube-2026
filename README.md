@@ -25,14 +25,26 @@ Para completar el curso necesitás cumplir **los dos requisitos**:
 
 ## 🚀 Cómo entregar tu TP
 
-### Paso 1 — Clonar el repositorio
+### Paso 1 — Hacer el fork del repositorio (solo una vez, desde el navegador)
+
+Ir a [github.com/aws-wic-ba/arq-nube-2026](https://github.com/aws-wic-ba/arq-nube-2026) y hacer clic en **Fork** → **Create fork**
+
+### Paso 2 — Clonar tu fork en la computadora
+
+Reemplazá `tu-usuario` con tu usuario de GitHub:
 
 ```bash
-git clone https://github.com/aws-wic-ba/arq-nube-2026.git
+git clone https://github.com/tu-usuario/arq-nube-2026.git
 cd arq-nube-2026
 ```
 
-### Paso 2 — Crear tu rama de trabajo
+### Paso 3 — Agregar el repositorio original como upstream
+
+```bash
+git remote add upstream https://github.com/aws-wic-ba/arq-nube-2026.git
+```
+
+### Paso 4 — Crear tu rama de trabajo
 
 Reemplazá `nombre-apellido` con tu nombre y apellido en minúsculas y sin espacios (ej: `maria-gomez`):
 
@@ -40,7 +52,7 @@ Reemplazá `nombre-apellido` con tu nombre y apellido en minúsculas y sin espac
 git checkout -b entrega/nombre-apellido
 ```
 
-### Paso 3 — Crear tu carpeta dentro de Entregables
+### Paso 5 — Crear tu carpeta dentro de Entregables
 
 ```bash
 mkdir -p Entregables/nombre-apellido/docs
@@ -49,28 +61,34 @@ mkdir -p Entregables/nombre-apellido/diagrams
 mkdir -p Entregables/nombre-apellido/evidence
 ```
 
-### Paso 4 — Completar los archivos
+### Paso 6 — Completar los archivos
 
 Completá cada archivo en `docs/` siguiendo las instrucciones de [`Entregables/README.md`](./Entregables/README.md). Podés ver la carpeta [`Entregables/ejemplo/`](./Entregables/ejemplo/) como referencia.
 
-### Paso 5 — Commitear los cambios
+### Paso 7 — Commitear los cambios
 
 ```bash
 git add Entregables/nombre-apellido/
 git commit -m "TP Final: nombre-apellido"
 ```
 
-### Paso 6 — Subir tu rama
+### Paso 8 — Subir tu rama a tu fork
 
 ```bash
 git push origin entrega/nombre-apellido
 ```
 
-### Paso 7 — Abrir un Pull Request
+### Paso 9 — Abrir un Pull Request
 
-Ir a [github.com/aws-wic-ba/arq-nube-2026](https://github.com/aws-wic-ba/arq-nube-2026), abrir un **Pull Request** desde tu rama hacia `main` e indicar:
+Ir a [github.com/aws-wic-ba/arq-nube-2026](https://github.com/aws-wic-ba/arq-nube-2026), hacer clic en **Compare & pull request** e indicar:
 - Tu nombre completo
 - Nombre y descripción breve de tu app
+
+> **¿Necesitás sincronizar con los últimos cambios del repo original?**
+> ```bash
+> git fetch upstream
+> git merge upstream/main
+> ```
 
 ---
 
